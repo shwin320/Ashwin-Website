@@ -1,0 +1,162 @@
+html {
+  scroll-behavior: smooth;
+}
+#navigation{
+	list-style-type: none;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: rgb(110, 165, 255);
+}
+#navigation li{
+	float: left;
+	font-family: Arial;
+	padding-right: 10px;
+	display: block;
+	padding: 8px;
+	text-align: center;
+	text-decoration: none;
+}
+#navigation li a{
+	color: black;
+	text-decoration: none;
+}
+#navigation li:hover{
+	background-color: rgb(182, 209, 255);
+	font-weight: bold;
+}
+#active{
+	background-color: rgb(182, 209, 255);
+	font-weight: bold;
+}
+#head{
+	position: fixed;
+	top: 0;
+	background-image: url("https://cdn2.itpro.co.uk/sites/itpro/files/2018/09/bajavascripthack_shutterstock_720388555.jpg");
+	width: 100%;
+	margin-left: -8px;
+	margin-top: -1px;
+	z-index: 1;
+}
+#heading{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+td{
+	padding-right: 15px;
+}
+.headtext{
+	color: white;
+	font-family: monospace;
+	margin-bottom: -40px;
+	font-size: 2.5em;
+}
+#top{
+	margin-top: 200px;
+}
+table{
+	 border-collapse: collapse;
+}
+.bottom{
+	 border-bottom: 2px solid black;
+}
+.center{
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+td{
+	font-family: Arial;
+	font-size: 16px;
+}
+thead{
+	font-weight: bold;
+}
+h3{
+	font-family: Arial;
+	font-size: 1.5em;
+	text-align: center;
+}
+#logo{
+	display: flex;
+	justify-content: space-between;
+}
+a img:hover{
+	opacity: 0.5;
+}
+#heading img{
+	padding-left: 3px;
+	padding-top: 4px;
+	padding-bottom: 2px;
+}
+.work{
+	display: inline-block;
+}
+p{
+	font-family: Arial;
+	font-size: 16px;
+}
+td img{
+	display: block;
+	margin: 0 auto;
+}
+h1:not(.headtext){
+	font-family: fantasy;
+	font-size: 2.5em;
+	text-align: center;
+	background-image: linear-gradient(to right, #00ffe1 0%, #00eaff 33%, #0099ff 99%);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+footer{
+	background-color: #5f5f5f;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin-left: -8px;
+	height: 55px;
+}
+footer p{
+	color: White;
+	display: inline-block;
+	margin: 0px;
+	margin-top: 18.5px;
+}
+button{
+	display: none;
+	background-color: rgb(110, 165, 255);
+	z-index: 1;
+	bottom: 1px;
+	right: 30px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 100%;
+	padding: 5px;
+	position: fixed
+}
+button:hover{
+	opacity: 50%;
+}
+#bottom{
+	margin-bottom: 55px;
+}
+q{
+	font-style: italic;
+	font-family: Arial;
+	font-size: 16px;
+	color: #8c897e;
+	display: block;
+	text-align: center;
+}
+ul{
+	font-family: Arial;
+	font-size: 16px;
+}
+a p{
+	text-decoration: underline;
+}
+a p:hover{
+	opacity: 0.5;
+}
