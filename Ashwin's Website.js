@@ -35,14 +35,17 @@ var darkImgAch = function(dark){
 	var PJAS = document.getElementById("pjas");
 	var PEAP = document.getElementById("peap");
 	var PTA = document.getElementById("pta");
+	var STA = document.getElementById("mcsta");
 	if(dark.matches){
 		PJAS.setAttribute("src", "https://cdn.jsdelivr.net/gh/shwin320/Ashwin-Website@d4548ff/PJAS (dark).jpg");
 		PEAP.setAttribute("src", "https://cdn.jsdelivr.net/gh/shwin320/Ashwin-Website@d4548ff/Peap (Dark).jpg");
 		PTA.setAttribute("src", "https://cdn.jsdelivr.net/gh/shwin320/Ashwin-Website@d4548ff/PTA (dark).jpg");
+		STA.setAttribute("src", "https://cdn.jsdelivr.net/gh/shwin320/Ashwin-Website@b501fe0/MCSTA (dark).png");
 	}else{
 		PJAS.setAttribute("src", "https://cdn.jsdelivr.net/gh/shwin320/Ashwin-Website@d4548ff/PJAS.jpg");
 		PEAP.setAttribute("src", "https://cdn.jsdelivr.net/gh/shwin320/Ashwin-Website@d4548ff/Peap.jpg");
 		PTA.setAttribute("src", "https://cdn.jsdelivr.net/gh/shwin320/Ashwin-Website@d4548ff/PTA.jpg");
+		STA.setAttribute("src", "https://cdn.jsdelivr.net/gh/shwin320/Ashwin-Website@b501fe0/MCSTA.png");
 	}
 };
 var darkImgWork = function(dark){
