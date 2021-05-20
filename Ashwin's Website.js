@@ -2,6 +2,13 @@ function scrollup(){
 	document.body.scrollTop = 0;
 	document.documentElement.scrollTop = 0;
 }
+window.onscroll = function(){
+	if(document.body.scrollTop > 1 || document.documentElement.scrollTop > 1){
+		document.getElementById("scroll").style.display = "block";
+	} else{
+		document.getElementById("scroll").style.display = "none";
+	};
+};
 function copyright(){
 	alert("This image is copyrighted material. Copyright © 2020 Ashwin Thomas. All Rights Reserved.");
 }
