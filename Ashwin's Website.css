@@ -189,6 +189,18 @@ p, h1, li, h2, td, h3, q{
 	transition: width 1s;
 	overflow: hidden;
 }
+.end{
+	margin-bottom: 65px;
+}
+#scroll{
+	height: 20px;
+	z-index: 2;
+	position: fixed;
+	bottom: 55px;
+	right: 10px;
+	margin: 0px;
+	display: none;
+}
 @media (prefers-color-scheme: dark) {
 	body{
 		background-color: black;
